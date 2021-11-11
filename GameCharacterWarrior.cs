@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace InheritanceDziedziczenie
 {
-    class GameCharacterWarrior : IMagicAttack, ISwordAttack // Interfaced method must be implemented if we use that!
+    class GameCharacterWarrior : GameCharacter, IMagicAttack, ISwordAttack // Interfaced method must be implemented if we use that!
+                                                                           // U can use also 1 class at the beginning of class
     {
         public GameCharacterWarrior(string name, int healthPointsHP)
         {
-            this.name = name;
-            this.healthPointsHP = healthPointsHP;
-        }
 
-        public string name;
-        public int healthPointsHP;
+        }
         void IMagicAttack.Attack1(int pkt)
         {
             throw new NotImplementedException();
@@ -49,6 +46,12 @@ namespace InheritanceDziedziczenie
         public void AtackSpecial(int pkt)
         {
             throw new NotImplementedException();
+        }
+
+        public override void Move()
+        {
+            Console.WriteLine("Ruch Wojownika");
+            ;
         }
     }
 }
