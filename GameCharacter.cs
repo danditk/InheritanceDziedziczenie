@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InheritanceDziedziczenie
 {
-    class GameCharacter
+    //class GameCharacter
+    abstract class GameCharacter // Because abstract method have only be contained in abstract class
     {
         public GameCharacter()
         {
@@ -19,10 +20,12 @@ namespace InheritanceDziedziczenie
             this.healthPointsHP = healthPointsHP;
         }
 
-        public virtual void Move()
-        {
-            Console.WriteLine("Ruch postaci");
-        }
+        public abstract void Move();
+
+        //public virtual void Move()
+        //{
+        //    Console.WriteLine("Ruch postaci");
+        //}
 
         //public void Move()
         //{
