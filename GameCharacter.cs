@@ -19,6 +19,11 @@ namespace InheritanceDziedziczenie
             this.healthPointsHP = healthPointsHP;
         }
 
+        public void Move()
+        {
+            Console.WriteLine("Ruch postaci");
+        }
+
 
         public string name;
         public int healthPointsHP;

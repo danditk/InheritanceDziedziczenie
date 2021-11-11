@@ -15,8 +15,10 @@ namespace InheritanceDziedziczenie
             GameCharacter c1 = new GameCharacter("Wojownik", 200);
             GameCharacterMag c2 = new GameCharacterMag("Mag", 160, 70);
 
-            Console.WriteLine(c1.name + " " + c1.healthPointsHP);
-            Console.WriteLine(c2.name + " " + c2.healthPointsHP + " " + c2.ManaPointsPm);
+            c2.Move();
+
+            //Console.WriteLine(c1.name + " " + c1.healthPointsHP);
+            //Console.WriteLine(c2.name + " " + c2.healthPointsHP + " " + c2.ManaPointsPm);
 
 
 
