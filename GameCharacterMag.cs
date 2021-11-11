@@ -13,6 +13,10 @@ namespace InheritanceDziedziczenie
         {
             this.ManaPointsPm = manaPointsMP;
         }
+        public void Move()
+        {
+            Console.WriteLine("Ruch Maga");
+        }
 
         public int ManaPointsPm;
     }
