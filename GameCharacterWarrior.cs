@@ -15,7 +15,7 @@ namespace InheritanceDziedziczenie
         }
         public void Attack1(int pkt)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Atak podstawowy za:" + pkt);
         }
 
         public void Attack2(int pkt)
@@ -25,18 +25,18 @@ namespace InheritanceDziedziczenie
 
         void IMagicAttack.Attack3(int pkt) // methods can be use public if we want to unify, or direct as this. using special interface - IAttack.Attack
         {
-            Console.WriteLine("Specjalny atak magiczny - BOOM!");
+            Console.WriteLine("Specjalny atak magiczny - BOOM! za:" + pkt);
             ;
         }
 
         void ISwordAttack.Attack3(int pkt)
         {
-            Console.WriteLine("Specjalny atak mieczem - BOOM!");
+            Console.WriteLine("Specjalny atak mieczem - BOOM! za:" + pkt);
         }
 
         public void AtackSpecial(int pkt)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Super Specjalny super Atak - BOOM! za:" + pkt);
         }
 
         public override void Move()

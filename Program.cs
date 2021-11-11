@@ -16,7 +16,16 @@ namespace InheritanceDziedziczenie
             GameCharacterMag c2 = new GameCharacterMag("Mag", 160, 70);
             GameCharacterWarrior c3 = new GameCharacterWarrior("Wojownik", 220, 80);
 
-            c3.Move();
+            // w metodzie niejawnej trzeba stworzyć metode do konkretnej klazy za pomocą interface'u
+            ISwordAttack c3swordAttack = (ISwordAttack) c3;
+            c3swordAttack.Attack3(150);
+            IMagicAttack c3MagicAttack = (IMagicAttack) c3;
+            c3MagicAttack.Attack3(74);
+
+            // w metodzie niejawnej sprawa jest prosta
+            c3.Attack1(40);
+
+            //c3.Move();
 
             //c2.Move();
             
