@@ -17,12 +17,14 @@ namespace InheritanceDziedziczenie
             GameCharacterWarrior c3 = new GameCharacterWarrior("Wojownik", 220, 80);
 
             // w metodzie niejawnej trzeba stworzyć metode do konkretnej klazy za pomocą interface'u
+            // IMPLICIT METHOD!
             ISwordAttack c3swordAttack = (ISwordAttack) c3;
             c3swordAttack.Attack3(150);
             IMagicAttack c3MagicAttack = (IMagicAttack) c3;
             c3MagicAttack.Attack3(74);
 
             // w metodzie niejawnej sprawa jest prosta
+            // EXPLICIT METHOD
             c3.Attack1(40);
 
             //c3.Move();

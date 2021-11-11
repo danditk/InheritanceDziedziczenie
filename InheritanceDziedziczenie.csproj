@@ -45,12 +45,12 @@
   <ItemGroup>
     <Compile Include="CelestialBody.cs" />
     <Compile Include="Earth.cs" />
-    <Compile Include="GameCharacter.cs" />
-    <Compile Include="GameCharacterWarrior.cs" />
-    <Compile Include="GameCharacterMag.cs" />
-    <Compile Include="GameCharacterMagSuper.cs" />
-    <Compile Include="ISwordAttack.cs" />
-    <Compile Include="IMagicAttack.cs" />
+    <Compile Include="GameClass\GameCharacter.cs" />
+    <Compile Include="GameClass\GameCharacterWarrior.cs" />
+    <Compile Include="GameClass\GameCharacterMag.cs" />
+    <Compile Include="GameClass\GameCharacterMagSuper.cs" />
+    <Compile Include="GameClass\ISwordAttack.cs" />
+    <Compile Include="GameClass\IMagicAttack.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,5 +58,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
