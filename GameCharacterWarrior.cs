@@ -13,32 +13,17 @@ namespace InheritanceDziedziczenie
         {
             this.swordPointsSP = swordPointsSP;
         }
-        void IMagicAttack.Attack1(int pkt)
+        public void Attack1(int pkt)
         {
             throw new NotImplementedException();
         }
 
-        void ISwordAttack.Attack2(int pkt)
+        public void Attack2(int pkt)
         {
             throw new NotImplementedException();
         }
 
-        void ISwordAttack.Attack3(int pkt)
-        {
-            throw new NotImplementedException();
-        }
-
-        void ISwordAttack.Attack1(int pkt)
-        {
-            throw new NotImplementedException();
-        }
-
-        void IMagicAttack.Attack2(int pkt)
-        {
-            throw new NotImplementedException();
-        }
-
-        void IMagicAttack.Attack3(int pkt)
+        public void Attack3(int pkt)
         {
             throw new NotImplementedException();
         }
