@@ -8,7 +8,7 @@ namespace InheritanceDziedziczenie
 {
     class Earth : Planet // Only one Inheritance is posible in C# - w tym języku można dziedziczyć tylko po jednej klasie
     {
-        void Atmosphere()
+        public void Atmosphere()
         {
             Console.WriteLine("Atmosfera ziemska");
         }

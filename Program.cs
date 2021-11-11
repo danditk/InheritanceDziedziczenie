@@ -11,9 +11,14 @@ namespace InheritanceDziedziczenie
     {
         static void Main(string[] args)
         {
-            CelestialBody celestialBody = new CelestialBody();
-            celestialBody.Name = "Mars";
-            Console.WriteLine(celestialBody.Name);
+            Earth earth = new Earth();
+            earth.Name = "Mars";
+            Console.WriteLine(earth.Name);
+            earth.
+
+            //CelestialBody celestialBody = new CelestialBody();
+            //celestialBody.Name = "Mars";
+            //Console.WriteLine(celestialBody.Name);
 
             Console.ReadKey();
         }

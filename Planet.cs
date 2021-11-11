@@ -8,7 +8,7 @@ namespace InheritanceDziedziczenie
 {
     abstract class Planet : CelestialBody
     {
-        void DayNightTime()
+        public void DayNightTime()
         {
             Console.WriteLine("Pory dnia i nocy");
         }
