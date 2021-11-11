@@ -12,7 +12,7 @@ namespace InheritanceDziedziczenie
         static void Main(string[] args)
         {
 
-            GameCharacter c1 = new GameCharacter("Wojownik", 200);
+            //GameCharacter c1 = new GameCharacter("Wojownik", 200); // zmiana na klase abstrakcyjną powoduje, że nie można utworzyć obiektu
             GameCharacterMag c2 = new GameCharacterMag("Mag", 160, 70);
 
             c2.Move();

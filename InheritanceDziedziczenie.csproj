@@ -47,6 +47,7 @@
     <Compile Include="Earth.cs" />
     <Compile Include="GameCharacter.cs" />
     <Compile Include="GameCharacterMag.cs" />
+    <Compile Include="GameCharacterMagSuper.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
