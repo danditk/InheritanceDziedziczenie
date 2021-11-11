@@ -46,8 +46,11 @@
     <Compile Include="CelestialBody.cs" />
     <Compile Include="Earth.cs" />
     <Compile Include="GameCharacter.cs" />
+    <Compile Include="GameCharacterWarrior.cs" />
     <Compile Include="GameCharacterMag.cs" />
     <Compile Include="GameCharacterMagSuper.cs" />
+    <Compile Include="ISwordAttack.cs" />
+    <Compile Include="IMagicAttack.cs" />
     <Compile Include="Planet.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
