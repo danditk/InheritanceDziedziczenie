@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceDziedziczenie
 {
-    class Planet : CelestialBody
+    abstract class Planet : CelestialBody
     {
         void DayNightTime()
         {
