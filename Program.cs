@@ -11,8 +11,12 @@ namespace InheritanceDziedziczenie
     {
         static void Main(string[] args)
         {
-            GameCharacter c1 = new GameCharacter("Elf", 200);
+
+            GameCharacter c1 = new GameCharacter("Wojownik", 200);
+            GameCharacterMag c2 = new GameCharacterMag("Mag", 160, 70);
+
             Console.WriteLine(c1.name + " " + c1.healthPointsHP);
+            Console.WriteLine(c2.name + " " + c2.healthPointsHP + " " + c2.ManaPointsPm);
 
 
 
