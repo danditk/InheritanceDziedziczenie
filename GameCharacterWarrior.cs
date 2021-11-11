@@ -23,9 +23,15 @@ namespace InheritanceDziedziczenie
             throw new NotImplementedException();
         }
 
-        public void Attack3(int pkt)
+        void IMagicAttack.Attack3(int pkt) // methods can be use public if we want to unify, or direct as this. using special interface - IAttack.Attack
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Specjalny atak magiczny - BOOM!");
+            ;
+        }
+
+        void ISwordAttack.Attack3(int pkt)
+        {
+            Console.WriteLine("Specjalny atak mieczem - BOOM!");
         }
 
         public void AtackSpecial(int pkt)

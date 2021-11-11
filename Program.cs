@@ -14,8 +14,12 @@ namespace InheritanceDziedziczenie
 
             //GameCharacter c1 = new GameCharacter("Wojownik", 200); // zmiana na klase abstrakcyjną powoduje, że nie można utworzyć obiektu
             GameCharacterMag c2 = new GameCharacterMag("Mag", 160, 70);
+            GameCharacterWarrior c3 = new GameCharacterWarrior("Wojownik", 220, 80);
 
-            c2.Move();
+            c3.Move();
+
+            //c2.Move();
+            
 
             //Console.WriteLine(c1.name + " " + c1.healthPointsHP);
             //Console.WriteLine(c2.name + " " + c2.healthPointsHP + " " + c2.ManaPointsPm);
