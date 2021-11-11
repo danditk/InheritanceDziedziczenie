@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceDziedziczenie
 {
-    class BlueBody
+    class CelestialBody
     {
         public string Name { get; set; }
 
