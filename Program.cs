@@ -11,7 +11,8 @@ namespace InheritanceDziedziczenie
     {
         static void Main(string[] args)
         {
-
+            GameCharacter c1 = new GameCharacter("Elf", 200);
+            Console.WriteLine(c1.name + " " + c1.healthPointsHP);
 
 
 
@@ -28,7 +29,7 @@ namespace InheritanceDziedziczenie
             //celestialBody.Name = "Mars";
             //Console.WriteLine(celestialBody.Name);
 
-            Console.ReadKey();
+            Console.ReadKey(); // Ctrl + F5 - is without debuger, so Console.ReadLine is not required
         }
     }
 }

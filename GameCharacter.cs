@@ -20,7 +20,7 @@ namespace InheritanceDziedziczenie
         }
 
 
-        string name;
-        int healthPointsHP;
+        public string name;
+        public int healthPointsHP;
     }
 }
