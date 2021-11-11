@@ -11,10 +11,18 @@ namespace InheritanceDziedziczenie
     {
         static void Main(string[] args)
         {
-            Earth earth = new Earth();
-            earth.Name = "Mars";
-            Console.WriteLine(earth.Name);
-            earth.
+
+
+
+
+            //Earth earth = new Earth();
+            //earth.Name = "Mars";
+            //Console.WriteLine(earth.Name);
+
+            //earth.Atmosphere();
+            //earth.DayNightTime();
+            //earth.RoundMove();
+
 
             //CelestialBody celestialBody = new CelestialBody();
             //celestialBody.Name = "Mars";
